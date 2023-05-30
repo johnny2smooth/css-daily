@@ -25,3 +25,18 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+svg[height="0"] {
+  position: fixed;
+}
+
+.test,
+.test2 {
+  height: 44ch;
+  background-image: radial-gradient(circle, #e66465, #9198e5);
+  filter: url(#grainy);
+}
+
+.test2 {
+  filter: url(#two);
+}
